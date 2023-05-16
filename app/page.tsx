@@ -58,7 +58,11 @@ export default function Home() {
             </div>
 
             <div
-              className="relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer"
+              className={`relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer
+              grayscale brightness-90 hover:brightness-100 ${
+                selectedProject === Project.project_1 &&
+                "grayscale-0 brightness-100"
+              }`}
               onClick={() => handleProjectClick(Project.project_1)}
             >
               <Image
@@ -85,7 +89,11 @@ export default function Home() {
             </div>
 
             <div
-              className="relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer"
+              className={`relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer
+                          grayscale brightness-90 hover:brightness-100 ${
+                            selectedProject === Project.project_2 &&
+                            "grayscale-0 brightness-100"
+                          }`}
               onClick={() => handleProjectClick(Project.project_2)}
             >
               <Image
@@ -112,7 +120,11 @@ export default function Home() {
             </div>
 
             <div
-              className="relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer"
+              className={`relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer
+              grayscale brightness-90 hover:brightness-100 ${
+                selectedProject === Project.project_3 &&
+                "grayscale-0 brightness-100"
+              }`}
               onClick={() => handleProjectClick(Project.project_3)}
             >
               <Image
