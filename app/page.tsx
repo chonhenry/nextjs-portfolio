@@ -23,10 +23,7 @@ export default function Home() {
   }
 
   return (
-    <main
-      className=" px-2
-                      lg:p-0 lg:m-auto lg:w-[1440px]"
-    >
+    <main className=" px-2 lg:p-0 lg:m-auto lg:w-[1440px]">
       <div className="flex flex-col lg:flex-row ">
         <div className="border border-black border-t-0 w-full uppercase text-center py-12 px-6 lg:w-1/3">
           <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -45,7 +42,7 @@ export default function Home() {
           <div
             className={`bg-light-brown flex flex-col-reverse mb-2 sm:h-52 sm:flex-row lg:h-full ${
               selectedProject === Project.project_1 ? "lg:w-8/12" : "lg:w-2/12"
-            }`}
+            } lg:transition-[width]`}
           >
             <div className="p-5 text-center sm:flex-1 sm:flex sm:flex-col sm:justify-center sm:text-left lg:hidden">
               <p className="uppercase mb-2 text-orange font-bold text-2xl">
@@ -59,9 +56,9 @@ export default function Home() {
 
             <div
               className={`relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer
-              grayscale brightness-90 hover:brightness-100 ${
-                selectedProject === Project.project_1 &&
-                "grayscale-0 brightness-100"
+              ${
+                selectedProject !== Project.project_1 &&
+                "lg:grayscale lg:brightness-90 lg:hover:brightness-100"
               }`}
               onClick={() => handleProjectClick(Project.project_1)}
             >
@@ -77,7 +74,7 @@ export default function Home() {
           <div
             className={`bg-light-brown flex flex-col-reverse mb-2 sm:h-52 sm:flex-row lg:h-full ${
               selectedProject === Project.project_2 ? "lg:w-8/12" : "lg:w-2/12"
-            }`}
+            } lg:transition-[width]`}
           >
             <div className="p-5 text-center sm:flex-1 sm:flex sm:flex-col sm:justify-center sm:text-left lg:hidden">
               <p className="uppercase mb-2 text-orange font-bold text-2xl">
@@ -90,10 +87,10 @@ export default function Home() {
 
             <div
               className={`relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer
-                          grayscale brightness-90 hover:brightness-100 ${
-                            selectedProject === Project.project_2 &&
-                            "grayscale-0 brightness-100"
-                          }`}
+              ${
+                selectedProject !== Project.project_2 &&
+                "lg:grayscale lg:brightness-90 lg:hover:brightness-100"
+              }`}
               onClick={() => handleProjectClick(Project.project_2)}
             >
               <Image
@@ -108,7 +105,7 @@ export default function Home() {
           <div
             className={`bg-light-brown flex flex-col-reverse mb-2 sm:h-52 sm:flex-row lg:h-full ${
               selectedProject === Project.project_3 ? "lg:w-8/12" : "lg:w-2/12"
-            }`}
+            } lg:transition-[width]`}
           >
             <div className="p-5 text-center sm:flex-1 sm:flex sm:flex-col sm:justify-center sm:text-left lg:hidden">
               <p className="uppercase mb-2 text-orange font-bold text-2xl">
@@ -121,10 +118,10 @@ export default function Home() {
 
             <div
               className={`relative w-full h-[20rem] sm:h-full sm:w-[20rem] md:w-[30rem] lg:w-full lg:hover:cursor-pointer
-              grayscale brightness-90 hover:brightness-100 ${
-                selectedProject === Project.project_3 &&
-                "grayscale-0 brightness-100"
-              }`}
+             ${
+               selectedProject !== Project.project_3 &&
+               "lg:grayscale lg:brightness-90 lg:hover:brightness-100"
+             }`}
               onClick={() => handleProjectClick(Project.project_3)}
             >
               <Image
