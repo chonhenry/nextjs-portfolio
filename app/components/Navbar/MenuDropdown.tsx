@@ -5,7 +5,7 @@ import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
 
 const MenuDropdown = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   function handleClick() {
     setIsMenuOpen((prev) => !prev);
@@ -17,7 +17,7 @@ const MenuDropdown = () => {
         {isMenuOpen ? <RxCross1 /> : <FiMenu />}
       </div>
       {isMenuOpen && (
-        <div className="absolute w-screen border border-black mt-20 top-0 right-0 font-thin text-lg cursor-pointer">
+        <div className="absolute w-screen border border-black mt-20 top-0 right-0 font-thin text-lg cursor-pointer bg-light-yellow">
           <div className="text-center py-5 border-b border-black hover:tracking-widest">
             Portfolio
           </div>
