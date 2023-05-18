@@ -41,7 +41,7 @@ module.exports = {
         },
       },
       animation: {
-        move: "move 10s linear infinite",
+        move: "move 20s linear infinite",
       },
     },
   },

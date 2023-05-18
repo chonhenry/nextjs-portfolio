@@ -24,7 +24,7 @@ export default function Home() {
   }
 
   return (
-    <main className="">
+    <main className="box-border">
       <div className="px-2 lg:p-0 lg:m-auto lg:w-[1440px] flex flex-col lg:flex-row">
         <div className="border border-black border-t-0 w-full uppercase text-center py-12 px-6 lg:w-1/3">
           <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold">

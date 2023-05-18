@@ -25,8 +25,7 @@ const HorizontalBar = () => {
     <div className="bg-orange w-screen my-6">
       <div className="w-full overflow-hidden lg:w-[1440px] lg:m-auto h-[120px] whitespace-nowrap">
         <div className="inline-block h-full animate-move">
-          {/*  */}
-          <div className="h-full w-auto inline-block mr-5">
+          <div className="h-full w-[90px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/html.png"
@@ -36,7 +35,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-5">
+          <div className="h-full w-[90px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/css.png"
@@ -46,7 +45,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-5">
+          <div className="h-full w-[90px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/javascript.png"
@@ -56,7 +55,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-4">
+          <div className="h-full w-[120px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/typescript.png"
@@ -66,7 +65,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-6">
+          <div className="h-full w-[90px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/react_.png"
@@ -76,7 +75,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-10">
+          <div className="h-full w-[250px] inline-block mr-14">
             <div className="h-full flex">
               <Image
                 src="/images/logo/angular_.png"
@@ -86,7 +85,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-9">
+          <div className="h-full w-[220px] inline-block mr-14">
             <div className="h-full flex">
               <Image
                 src="/images/logo/nextjs.png"
@@ -96,7 +95,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-4">
+          <div className="h-full w-[300px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/tailwindcss.png"
@@ -106,8 +105,10 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
+        </div>
 
-          <div className="h-full w-auto inline-block mr-5">
+        <div className="inline-block h-full animate-move">
+          <div className="h-full w-[90px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/html.png"
@@ -117,7 +118,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-5">
+          <div className="h-full w-[90px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/css.png"
@@ -127,7 +128,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-5">
+          <div className="h-full w-[90px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/javascript.png"
@@ -137,7 +138,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-4">
+          <div className="h-full w-[120px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/typescript.png"
@@ -147,7 +148,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-6">
+          <div className="h-full w-[90px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/react_.png"
@@ -157,7 +158,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-10">
+          <div className="h-full w-[250px] inline-block mr-14">
             <div className="h-full flex">
               <Image
                 src="/images/logo/angular_.png"
@@ -167,7 +168,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-9">
+          <div className="h-full w-[220px] inline-block mr-14">
             <div className="h-full flex">
               <Image
                 src="/images/logo/nextjs.png"
@@ -177,7 +178,7 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-auto inline-block mr-4">
+          <div className="h-full w-[300px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/tailwindcss.png"
