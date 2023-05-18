@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import HorizontalBar from "./components/HorizontalBar";
 
 const imageStyle = {
   objectFit: "cover",
@@ -23,12 +24,12 @@ export default function Home() {
   }
 
   return (
-    <main className=" px-2 lg:p-0 lg:m-auto lg:w-[1440px]">
-      <div className="flex flex-col lg:flex-row ">
+    <main className="">
+      <div className="px-2 lg:p-0 lg:m-auto lg:w-[1440px] flex flex-col lg:flex-row">
         <div className="border border-black border-t-0 w-full uppercase text-center py-12 px-6 lg:w-1/3">
           <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold">
-            Hi, I am Henry. A passionate software developer based in United
-            States.
+            Hi, I am <span className="text-orange">Henry</span>. A passionate
+            software developer based in United States.
           </p>
           <div
             className="bg-black text-white font-light w-48 sm:w-72 mt-6 mx-auto py-6 cursor-pointer
@@ -127,13 +128,15 @@ export default function Home() {
               <Image
                 fill
                 style={imageStyle}
-                src="/images/project_3.webp"
+                src="/images/project_3.png"
                 alt="project 3"
               />
             </div>
           </div>
         </div>
       </div>
+
+      <HorizontalBar />
     </main>
   );
 }
