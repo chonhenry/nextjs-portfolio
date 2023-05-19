@@ -22,7 +22,7 @@ const items = [
 
 const HorizontalBar = () => {
   return (
-    <div className="bg-orange w-screen my-6">
+    <div className="bg-orange w-screen my-6 relative">
       <div className="w-full overflow-hidden lg:w-[1440px] lg:m-auto h-[120px] whitespace-nowrap">
         <div className="inline-block h-full animate-move">
           <div className="h-full w-[90px] inline-block mr-10">
@@ -55,22 +55,23 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-[120px] inline-block mr-4">
-            <div className="h-full flex">
-              <Image
-                src="/images/logo/bootstrap.svg"
-                style={imageStyle}
-                width={90}
-                height={100}
-              />
-            </div>
-          </div>
-          <div className="h-full w-[120px] inline-block mr-8">
+
+          <div className="h-full w-[120px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/typescript.png"
                 style={imageStyle}
                 width={120}
+                height={100}
+              />
+            </div>
+          </div>
+          <div className="h-full w-[120px] inline-block mr-2">
+            <div className="h-full flex">
+              <Image
+                src="/images/logo/bootstrap.svg"
+                style={imageStyle}
+                width={90}
                 height={100}
               />
             </div>
@@ -148,22 +149,22 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-[120px] inline-block mr-4">
-            <div className="h-full flex">
-              <Image
-                src="/images/logo/bootstrap.svg"
-                style={imageStyle}
-                width={90}
-                height={100}
-              />
-            </div>
-          </div>
-          <div className="h-full w-[120px] inline-block mr-8">
+          <div className="h-full w-[120px] inline-block mr-10">
             <div className="h-full flex">
               <Image
                 src="/images/logo/typescript.png"
                 style={imageStyle}
                 width={120}
+                height={100}
+              />
+            </div>
+          </div>
+          <div className="h-full w-[120px] inline-block mr-2">
+            <div className="h-full flex">
+              <Image
+                src="/images/logo/bootstrap.svg"
+                style={imageStyle}
+                width={90}
                 height={100}
               />
             </div>

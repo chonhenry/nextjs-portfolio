@@ -4,6 +4,10 @@ import { useState } from "react";
 import Image from "next/image";
 import HorizontalBar from "./components/HorizontalBar";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer";
+import { AiOutlineGithub } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const imageStyle = {
   objectFit: "cover",
@@ -24,19 +28,31 @@ export default function Home() {
     setSelectedProject(project);
   }
 
+  function gotToPage(url: string) {
+    window.open(url, "_blank");
+  }
+
   return (
-    <main className="box-border">
+    <main className="box-border overflow-hidden">
       <div className="px-2 lg:p-0 lg:m-auto lg:w-[1440px] flex flex-col lg:flex-row">
         <div className="border border-black border-t-0 w-full uppercase text-center py-12 px-6 lg:w-1/3">
           <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold">
             Hi, I am <span className="text-orange">Henry</span>. A passionate
             software developer based in United States.
           </p>
-          <div
-            className="bg-black text-white font-light w-48 sm:w-72 mt-6 mx-auto py-6 cursor-pointer
-                      hover:bg-orange transition ease-in-out duration-300"
-          >
-            Contact
+          <div className="text-orange w-48 sm:w-72 mt-6 mx-auto text-4xl md:text-4xl flex justify-around items-center">
+            <AiOutlineGithub
+              className="cursor-pointer"
+              onClick={() => gotToPage("https://github.com/chonhenry")}
+            />
+            <FaLinkedin
+              className="cursor-pointer"
+              onClick={() => gotToPage("https://www.linkedin.com/in/chonhenry")}
+            />
+            <HiOutlineMail
+              className="cursor-pointer"
+              onClick={() => gotToPage("mailto:chonhenry@outlook.com")}
+            />
           </div>
         </div>
 
@@ -140,6 +156,8 @@ export default function Home() {
       <HorizontalBar />
 
       <Projects />
+
+      <Footer />
     </main>
   );
 }
