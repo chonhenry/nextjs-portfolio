@@ -55,7 +55,17 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-[120px] inline-block mr-10">
+          <div className="h-full w-[120px] inline-block mr-4">
+            <div className="h-full flex">
+              <Image
+                src="/images/logo/bootstrap.svg"
+                style={imageStyle}
+                width={90}
+                height={100}
+              />
+            </div>
+          </div>
+          <div className="h-full w-[120px] inline-block mr-8">
             <div className="h-full flex">
               <Image
                 src="/images/logo/typescript.png"
@@ -138,7 +148,17 @@ const HorizontalBar = () => {
               />
             </div>
           </div>
-          <div className="h-full w-[120px] inline-block mr-10">
+          <div className="h-full w-[120px] inline-block mr-4">
+            <div className="h-full flex">
+              <Image
+                src="/images/logo/bootstrap.svg"
+                style={imageStyle}
+                width={90}
+                height={100}
+              />
+            </div>
+          </div>
+          <div className="h-full w-[120px] inline-block mr-8">
             <div className="h-full flex">
               <Image
                 src="/images/logo/typescript.png"

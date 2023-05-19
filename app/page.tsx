@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import HorizontalBar from "./components/HorizontalBar";
+import Projects from "./components/Projects/Projects";
 
 const imageStyle = {
   objectFit: "cover",
@@ -137,6 +138,8 @@ export default function Home() {
       </div>
 
       <HorizontalBar />
+
+      <Projects />
     </main>
   );
 }
