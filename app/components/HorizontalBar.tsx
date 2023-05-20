@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
 
 const imageStyle = {
@@ -32,6 +31,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="html"
               />
             </div>
           </div>
@@ -42,6 +42,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="css"
               />
             </div>
           </div>
@@ -52,6 +53,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="javascript"
               />
             </div>
           </div>
@@ -63,6 +65,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={120}
                 height={100}
+                alt="typescript"
               />
             </div>
           </div>
@@ -73,6 +76,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="bootstrap"
               />
             </div>
           </div>
@@ -83,6 +87,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="react"
               />
             </div>
           </div>
@@ -93,6 +98,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={250}
                 height={100}
+                alt="angular"
               />
             </div>
           </div>
@@ -103,6 +109,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={220}
                 height={100}
+                alt="nextjs"
               />
             </div>
           </div>
@@ -113,6 +120,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={300}
                 height={100}
+                alt="tailwindcss"
               />
             </div>
           </div>
@@ -126,6 +134,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="html"
               />
             </div>
           </div>
@@ -136,6 +145,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="css"
               />
             </div>
           </div>
@@ -146,6 +156,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="javascript"
               />
             </div>
           </div>
@@ -156,6 +167,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={120}
                 height={100}
+                alt="typescript"
               />
             </div>
           </div>
@@ -166,6 +178,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="bootstrap"
               />
             </div>
           </div>
@@ -176,6 +189,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={90}
                 height={100}
+                alt="react"
               />
             </div>
           </div>
@@ -186,6 +200,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={250}
                 height={100}
+                alt="angular"
               />
             </div>
           </div>
@@ -196,6 +211,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={220}
                 height={100}
+                alt="nextjs"
               />
             </div>
           </div>
@@ -206,6 +222,7 @@ const HorizontalBar = () => {
                 style={imageStyle}
                 width={300}
                 height={100}
+                alt="tailwindcss"
               />
             </div>
           </div>
